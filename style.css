@@ -6,3 +6,15 @@ p{
     color: skyblue;
     text-align: center;
 }
+h2{
+    color: cream;
+    text-align: left;
+}
+button{
+    background-color: black;
+    text-align: center;
+    text-color: white;
+}
+body{
+    background-color: blue;
+}
