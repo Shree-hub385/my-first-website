@@ -6,11 +6,11 @@ h1{
     width: fit-content;
     border-radius: 10px;
 }
-p{
+h2{
     color: blue;
     text-align: center;
 }
-h2{
+h3{
     color: cream;
     text-align: left;
 }
@@ -25,5 +25,5 @@ button{
     cursor: pointer;
 }
 body{
-    background-color: peachpuff;
+    background-color: lightgray;
 }
