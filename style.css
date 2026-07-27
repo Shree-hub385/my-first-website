@@ -1,33 +1,160 @@
-h1{
-    color: red;
-    text-align: center;
-    border: 3px solid black;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 10px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
-h2{
-    color: blue;
-    text-align: center;
-}
-h3{
-    color: cream;
-    text-align: left;
-    border: 2px solid black;
-    padding: 8px;
-    width: fit-content;
-    border-radius: 5px;
-}
-button{
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 15px 30px;
-    font-size: 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
+
 body{
-    background-color: lightgray;
+background:#f4f9ff;
+}
+
+header{
+background:#0b5ed7;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+header h1{
+font-size:32px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(to right,#4facfe,#00f2fe);
+color:white;
+}
+
+.hero h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 35px;
+font-size:18px;
+border:none;
+background:#0b5ed7;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#084298;
+}
+
+.services{
+padding:60px;
+text-align:center;
+}
+
+.services h2{
+font-size:40px;
+margin-bottom:40px;
+color:#0b5ed7;
+}
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:250px;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0b5ed7;
+}
+
+.doctors{
+padding:60px;
+text-align:center;
+background:#eaf4ff;
+}
+
+.doctors h2{
+font-size:40px;
+margin-bottom:40px;
+color:#0b5ed7;
+}
+
+.doctor-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.doctor{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+width:250px;
+}
+
+.doctor img{
+width:180px;
+height:180px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+.contact h2{
+font-size:40px;
+margin-bottom:25px;
+color:#0b5ed7;
+}
+
+.contact p{
+font-size:20px;
+margin:15px;
+}
+
+footer{
+background:#0b5ed7;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
